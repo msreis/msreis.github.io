@@ -25,6 +25,25 @@
 - Media Queries
 */
 
+ /* Footer */
+footer {
+  background:#009cde;
+  padding: 1em 0;
+}
+footer i {
+  color:#FFFFFF;
+  line-height: 1;
+  font-size:0.7em;
+  margin-top:0.5em;
+}
+footer a {
+  color:#FFFFFF;
+  line-height: 1;
+  font-size:0.7em;
+  margin-top:0.5em;
+}
+
+
 .navBar{
   background-color: #009cde; 
   overflow: hidden;
