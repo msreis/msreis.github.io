@@ -77,30 +77,83 @@
    <div class="row">
     <div class="twelve columns">
     <br/><b>Financial Support</b> <br/><br/>
-    This project is currently supported by a PhD scholarship from CAPES. Initial parts of this work were supported by <a href="https://bv.fapesp.br/en/bolsas/175684/identification-of-cell-signaling-pathways-based-on-biochemical-reaction-kinetics-repositories/" target="_blank">the MSc scholarship # 2017/20575-9 from FAPESP</a>, and also by <a href="https://bv.fapesp.br/en/bolsas/189321/an-approximate-bayesian-computation-based-approach-to-tackle-the-lack-of-isolation-problem-in-signal/" target="_blank">the BPE grant # 2019/20025-4 from FAPESP</a>; activities of this latter grant were carried out by the Coordinator at Dr Liepe's group in Göttingen, Germany.
+    This project is currently supported by a PhD scholarship from CAPES. Initial parts of this work were supported by <a href="https://bv.fapesp.br/en/bolsas/175684/identification-of-cell-signaling-pathways-based-on-biochemical-reaction-kinetics-repositories/" target="_blank">the MSc scholarship # 2017/20575-9 from FAPESP</a>, and also by <a href="https://bv.fapesp.br/en/bolsas/189321/an-approximate-bayesian-computation-based-approach-to-tackle-the-lack-of-isolation-problem-in-signal/" target="_blank">the BPE grant # 2019/20025-4 from FAPESP</a>; activities of this latter grant were carried out by the Coordinator at Dr. Liepe's group in Göttingen, Germany.
     </div>
   </div>
 </div>
 
-<br/><hr><br/>
+<br/><hr>
 
 <div class="container">
   <div class="row">
     <div class="twelve columns">
-    <h6><b>DNA replication programming in Trypanosomatids</b></h6>
+    <h6><strong>DNA replication programming in trypanosomatids</strong></h6>
+    Trypanosomatids are protozoa that bear a peculiar genomic topology, with genes organized into polycistrons and constitutive transcription along the whole cell cycle. Given those properties, one hypothesis is that conflicts between DNA replication and transcription machineries contribute for the firing of replication origins along the cell cycle S phase in those organisms. In fact, based on a DNA replication model proposed for human cells, we developed a DNA replication dynamic model for <em>Trypanosoma brucei</em>. That model was calibrated with published MFA-seq data and predicted that increasing constitutive transcription levels indeed incur in an increase of fired origins; however, such increase has little impact on the overall S phase duration. Those predictions were validated experimentally in alpha-amanitin-based transcription inhibition assays. Nevertheless, the aforementioned hypothesis was not explored in other trypanosomatids, especially in <em>T. cruzi</em>. Recently, Dr. Maria Carolina Elias' group concluded the DNA origins mapping for <em>T. cruzi</em> through MFA-seq assays. That assays unveiled that several origins are located in coding regions of the dispersed gene family 1 (DFG-1) genes, a gene family relevant for the parasite life cycle. Once DFG-1 genes have high genetic variability, one possibility is that conflicts between DNA replication and transcription machineries are responsible for the genetic variability of those genes. If this latter assumption is correct, one corollary is that the fired origin distribution in <em>T. cruzi</em> is conditioned by the parasite's own genomic organization. Therefore, through a combination of dry and wet lab assays, we seek in this project to answer the following questions: 
+    
+    <br/><br/>
+    
+    <ul> 
+      <li> <em> Do conflicts between DNA replication and transcription machineries induce increased origin firing in T. cruzi?</em> </li>
+      <li> <em> Is the origin firing distribution conditioned by the genomic organization?</em></li>
+    </ul>
+
+    Apart from the resolution of the aforementioned questions, we aim with this project to improve computational dynamic models of the DNA replication programming. We also expect theoretical advances (e.g., closed solutions of stochastic processes that describe DNA replication dynamics in trypanosomatids, which would be derived through analyses of computational assays.
+    </div>
+  </div>
+   <div class="row">
+    <div class="twelve columns">
+    <br/><b>Team</b> <br/><br/>
+    <a href="members.html#msreis">Marcelo S. Reis, PhD</a> - Coordinator <br/><br/>
+    <a href="members.html#bscholl">Bruno Scholl</a> - Undergrad Student <br/><br/>
+    <a href="members.html#gcayres">Gustavo Cayres</a> - Undergrad Student (Former Member)<br/><br/>
+    <a href="http://lattes.cnpq.br/4253838966347741" target="_blank">Maria Carolina Elias, PhD</a> - Associate Investigator<br/>
+    <em>(Principal Investigator at Cell Cycle Laboratory, Butantan Institute)</em><br/><br/>
+    <a href="http://lattes.cnpq.br/4775859232176039" target="_blank">Marcelo Santos</a> - Postdoc fellow under Dr. Elias supervision (Former Member)<br/><br/>
+    </div>
+  </div>
+   <div class="row">
+    <div class="twelve columns">
+    <br/><b>Financial Support</b> <br/><br/>
+    Initial stages of this project were supported by <a href="https://bv.fapesp.br/en/bolsas/168770/design-and-simulation-of-computational-models-of-the-dna-replication-dynamics-in-kinetoplastids/" target="_blank">the Undergrad Research scholarship # 2016/17775-3 from FAPESP</a>.
     </div>
   </div>
 </div>
+
+<br/><hr>
+
 
 <div class="container">
   <div class="row">
     <div class="twelve columns">
-    <h6><b>Phyloproteomic analysis of mass spectrometry-based proteomics</b></h6>
+    <h6><b>Phyloproteomic analysis of proteomes yielded in mass spectrometry-based assays</b></h6>
+
+    Snake venoms are complex mixtures composed mostly of proteins and peptides. One analytical strategy that is often used to study them is the mass-spectrometry (MS)-based proteomics. Recent analysis using proteomic data gathered through MS assays showed a correlation between a clustering of proteins from different species of the <em>Bothrops</em> genus and their phylogenetic classification. However, the overrepresentation of some species in the protein sequence database used for the computational identification of peptides could incur in a bias in such type of analysis. To mitigate that problem, more recently it was generated phyloproteomic trees based on a <em>de novo</em> sequencing, that is, without the usage of a database. Nonetheless, that approach generated many false positives, which also is a source of noise in those analyses. Therefore, we are trying to circumvent those issues through the direct usage of MS raw data for the estimation of phyloproteomic trees. To this end, we are using a multiresolution-based approach for the construction of matrices as a function of fragment retention time, mass/charge ratio and intensity detection. Such matrices are being used to generate phyloproteomic trees through a Bayesian inference approach, using Markov Chain Monte Carlo methods. Finally, we are applying the CADM statistical test for the comparison of the cladograms yielded by our methodology with the one obtained using mitochondrial DNA. With this new methodology fully developed, we expect more robust results regarding to which extent the venom proteomic profiles matches the phylogeny of different species of <em>Bothrops</em> snakes.  
+    </div>
+  </div>
+  <div class="row">
+    <div class="twelve columns">
+    <br/><b>Team</b> <br/><br/>
+    <a href="members.html#msreis">Marcelo S. Reis, PhD</a> - Coordinator <br/><br/>
+    <a href="members.html#gvieira">Guilherme Vieira</a> - Undergrad Student <br/><br/>
+    <a href="members.html#gmaciel">Gustavo Maciel</a> - Undergrad Student (Former Member)<br/><br/>
+    <a href="members.html#vwraposo">Victor Raposo</a> - Undergrad Student (Former Member)<br/><br/>
+    <a href="http://lattes.cnpq.br/9362702262041806" target="_blank">Solange M.T. Serrano, PhD</a> - Associate Investigator<br/>
+    <em>(Principal Investigator at Applied Toxinology Laboratory, Butantan Institute)</em><br/><br/>
+    <a href="http://lattes.cnpq.br/4540289047342316" target="_blank">Carolina Brás</a> - Doctoral Student under Dr. Serrano supervision<br/><br/>
+    <a href="http://lattes.cnpq.br/0554948941900699" target="_blank">Débora Andrade-Silva</a> - Doctoral Student under Dr. Serrano supervision<br/><br/>
+    </div>
+  </div>
+   <div class="row">
+    <div class="twelve columns">
+    <br/><b>Financial Support</b> <br/><br/>
+    An intermediate stage of this project were supported by <a href="https://bv.fapesp.br/en/bolsas/178365/computational-phylogenetic-analysis-of-bothrops-snakes-from-venom-proteomes/" target="_blank">the Undergrad Research scholarship # 2018/06682-0 from FAPESP</a>.
     </div>
   </div>
 </div>
 
-  </div>
+</div>
+
+<br/><br/>
 
 <div class="container">
 <div class="twelve columns" style="margin-top: 2%">
@@ -115,6 +168,8 @@
   </div>
 </div>
 
+<br/><hr>
+
 <div class="container">
   <div class="row">
     <div class="twelve columns">
@@ -122,6 +177,8 @@
     </div>
   </div>
 </div>
+
+<br/><hr>
 
 <div class="container">
   <div class="row">
@@ -131,6 +188,8 @@
   </div>
 </div>
 
+<br/><hr>
+
 <div class="container">
   <div class="row">
     <div class="twelve columns">
@@ -138,7 +197,6 @@
     </div>
   </div>
 </div>
-
 
 </div>
 
