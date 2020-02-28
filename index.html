@@ -100,13 +100,17 @@
   
   <div class="container">
     <div class="row">
-      <div class="twelve columns">
         <h5>Inference of phyloproteomic trees from MS-based proteomics assays</h5>
+    </div>
+    <div class="row">
+    Snakebite envenomation is a life-threatening accident that consists in the injection into a victim of an certain amount of venom through the bite of a snake. It is considered by the World Health Organization as <a href="https://www.who.int/snakebites/disease/en/" target="_blank">a neglected tropical disease since June 2017</a>. Since snake venoms are complex mixtures, being composed mostly of proteins and peptides, the investigation of snake venoms through proteomic profiling comparisons among species are relevant for the development of more efficient anti-venom treatments (e.g., by selecting molecular targets that are shared by a number of venoms). Moreover, the proteomic profiling comparison through phyloproteomic cladograms (tree) is also very important in the context of evolutionary studies, since they might help us to understand the interplay between venom composition, phylogeny and environment. However, to yield trustworthy phyloproteomic trees is a challenging task due to limitations of mass spectrometry (MS)-based proteomics, the analytical strategy that is used for snake venom proteomic profiling. One of those limitations is the sequence database-based peptide and protein identification, a step that is limited by the completeness of the used database. Therefore, in this research line we aim to develop methods to circumvent MS-based limitations to infer reliable phyloproteomic trees; to this end, we are dealing directly with MS raw data, skipping the database identification step altogether, and developing multi-resolution-based approaches to generate occurrence matrices for a Bayesian inference of phyloproteomic trees. The current project in this research line is "<a href="projects-and-software.html#phyloproteomics">Phyloproteomic analysis of snake venom proteomes yielded by mass spectrometry-based assays</a>", in collaboration with Dr. Solange Serrano (Principal Investigator at Applied Toxinology Laboratory, Butantan Institute).
+    </div>
+    <div class="row">
+        <br/>
         <figure>
           <img src="images/gmaciel_term_paper.jpeg" class="bg" alt="Gustavo Maciel's term paper (2019)">
-          <figcaption class="caption"><i>Gustavo Maciel's term paper (2019).</i></figcaption>
+          <figcaption class="caption"><i>Fluxogram of the methodology under development. Snake venoms from different species are analyzed in a mass spectrometer, yielding a raw file, one per venom. Each yielded file can be used to produce an ion map; those maps can be aligned among venoms. The aligned maps then can be used to define a partition scheme that should be applied into each ion map; the chosen partition defines the resolution that will be used at each region of the ion map for the generation of the NEXUS files. Using these latter files, the phyloproteomic tree can be estimated through the Bayesian inference procedure implemented in the MrBayes software. Finally, the mtDNA-based phylogenetic tree also generated using MrBayes can be compared with the phyloproteomic one using statistical tests like CADM. Figure extracted from Gustavo Maciel's term poster (2019).</i></figcaption>
         </figure>  
-      </div>
     </div>
   </div>
 
