@@ -37,6 +37,13 @@
   z-index: 0;
 }
 
+.googlemaps
+{
+ border: 0;
+ width: 600px;
+ height: 450px;
+}
+
 
  /* Footer */
 footer {
