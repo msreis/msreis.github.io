@@ -25,6 +25,12 @@
 - Media Queries
 */
 
+.bg
+{
+  width: 100%;
+  z-index: 0;
+}
+
  /* Footer */
 footer {
   background:#009cde;
