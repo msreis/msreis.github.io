@@ -39,9 +39,15 @@
 
 .googlemaps
 {
- border: 0;
- width: 600px;
- height: 450px;
+  border: 0;
+  width: 600px;
+  height: 450px;
+}
+
+.sofware_logo
+{
+  width: 250px;
+  z-index: 0;
 }
 
 
