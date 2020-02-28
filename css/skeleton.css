@@ -31,6 +31,13 @@
   z-index: 0;
 }
 
+.photo
+{
+  width: 100px;
+  z-index: 0;
+}
+
+
  /* Footer */
 footer {
   background:#009cde;
