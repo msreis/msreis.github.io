@@ -56,9 +56,137 @@
   <div class="row" style="margin-top: 2%">
     <h5> Publications </h5>
 
-This is a list of publications since the principal investigator started to supervise students (2015). For the principal investigator's publications before that period please <a href="https://publons.com/researcher/2686981/marcelo-s-reis/">refer to his page at Publons</a>.
+This is a list of publications since the end of Marcelo's doctoral (2012), including a description of his thesis. For publications before that period please <a href="https://publons.com/researcher/2686981/marcelo-s-reis/">refer to his page at Publons</a>.
   </div>
 </div>
+
+<br/>
+
+<div class="container">
+  <div class="row">
+    <div class="twelve columns">      
+     <h6> <b> Doctoral thesis </b> </h6> 
+     My doctoral thesis, advised by Prof. Dr. Junior Barrera, was in the field of Machine Learning. More specifically, I worked on dealing with the feature selection problem through an approximation called the U-curve problem, which enable us to deal with the search space of features subsets in a more structured, hence more efficient, way. In the following, I briefly present the chapters of my thesis and also publications associated to some of them. My thesis <a href="https://www.teses.usp.br/teses/disponiveis/45/45134/tde-05022013-123757/en.php">can be downloaded from here</a> (in Portuguese only).
+    </div>
+  </div>
+</div>
+
+<br/>
+
+  <div class="container" id="chap-1">
+    <div class="four columns">
+      <b> Chapter 1: Introduction </b>
+    </div>
+    <div class="eight columns">
+    Motivation of the problem and thesis outline.
+    </div>
+  </div>
+  
+  <br/>
+
+  <div class="container" id="chap-2">
+    <div class="four columns">
+      <b> Chapter 2: Literature review and fundamental concepts </b>
+    </div>
+    <div class="eight columns">
+    Review of the feature selection problem and proposed methods to tackle it; presentation of concepts and definitions used throughout the thesis.    
+    </div>
+  </div>
+
+  <br/>
+  
+    <div class="container" id="chap-3">
+    <div class="four columns">
+      <b> Chapter 3: the U-curve problem </b>
+    </div>
+    <div class="eight columns">
+    Formalization of the U-curve problem and a proof that this problem is NP-hard. An improved version of that proof was published in <a href="publications.html#Estrela:2020">Estrela et al. (2020)</a>.    
+    </div>
+  </div>
+
+  <br/>
+  
+    <div class="container" id="chap-4">
+    <div class="four columns">
+      <b> Chapter 4: The UCS algorithm </b>
+    </div>
+    <div class="eight columns">
+    Demonstration that an algorithm previously introduced to tackle the U-curve problem is suboptimal; presentation of the U-Curve-Search (UCS), which is actually optimal to solve the U-curve problem. Some principles of the UCS algorithm were presented in <a href="publications.html#Reis:2013">Reis and Barrera (2013)</a>, and that algorithm was fully published in <a href="publications.html#Reis:2019">Reis et al. (2019)</a>.    
+    </div>
+  </div>
+
+  <br/>
+  
+   <div class="container" id="chap-5">
+    <div class="four columns">
+      <b> Chapter 5: The path initiation problem </b>
+    </div>
+    <div class="eight columns">
+    In UCS and other similar algorithms, finding an element of the search space that was not pruned is known as the path initiation problem. In this chapter we analyzed such problem, including some computational complexity aspects. After this thesis, we tackled this problem using reduced, ordered binary decision diagrams. This latter work was developed during <a href="members.html#gestrela">Gustavo Estrela</a>'s <a href="https://bv.fapesp.br/en/bolsas/156441/studies-of-efficient-data-structures-to-tackle-the-u-curve-optimization-problem/">first scientific initiation</a> (FAPESP scholarship  14/23564-0) and also reported it in <a href="publications.html#Reis:2019">Reis et al. (2019)</a>.    
+    </div>
+  </div>
+
+  <br/>
+  
+  
+  <div class="container" id="chap-6">
+    <div class="four columns">
+      <b> Chapter 6: Branch-and-bound algorithms for the U-curve problem </b>
+    </div>
+    <div class="eight columns">
+    We introduced the Poset-Forest Search (PFS), a branch-and-bound algorithm to tackle the U-curve problem that manages the search space through two forests of partially-ordered sets (posets). Further improvements in PFS were accomplished later, through Gustavo Estrela's <a href="https://bv.fapesp.br/en/bolsas/170553/design-of-poset-forest-based-algorithms-for-the-u-curve-optimization-problem/">second scientific initiation project</a> (FAPESP scholarship  16/25959-7).
+    </div>
+  </div>
+
+  <br/>
+
+    <div class="container" id="chap-7">
+    <div class="four columns">
+      <b> Chapter 7: Experiments </b>
+    </div>
+    <div class="eight columns">
+    Presentation of benchmarking experiments with the algorithms developed during the doctoral period, including computational assays using hard instances (polynomial reduction from the subset sum problem) and also from real-world data (filtering of binary images using W-operators). 
+    </div>
+  </div>
+
+  <br/>
+  
+      <div class="container" id="chap-8">
+    <div class="four columns">
+      <b> Chapter 8: Generalization of the U-curve problem </b>
+    </div>
+    <div class="eight columns">
+    Here, we provided some theoretical results in Machine Learning. Consider, for a fixed number N, the Boolean lattice composed of all possible Boolean functions with N variables (inputs). Consider the joint distribution Pr[<b>Y</b> = <b>y</b>, <b>X</b> = <b>x</b>], where <b>X</b> and <b>Y</b> are random variables that draw from the input and Boolean target domains, respectively. We demonstrated that using the mean absolute error (MAE) to estimate the error of choosing each of those Boolean functions to classify data produced by the aforementioned joint distribution results in a search space in which chains that pass through the global minimum are U-shaped, therefore prone to be solved by algorithms designed for the U-curve problem.</div>
+  </div>
+
+  <br/>
+  
+      <div class="container" id="chap-9">
+    <div class="four columns">
+      <b> Chapter 9: Conclusion </b>
+    </div>
+    <div class="eight columns">
+   Typical conclusion chapter: we recalled the main contributions of this thesis and provided some perspectives of future works.    
+    </div>
+  </div>
+
+  <br/>
+  
+      <div class="container" id="appendix">
+    <div class="four columns">
+      <b> Appendix A: The featsel framework </b>
+    </div>
+    <div class="eight columns">
+    Description of featsel, a framework for benchmarking of feature selection algorithms and cost functions. This framework was coded in C++ and was developed especially for the execution of the computational experiments depicted throughout the thesis. featsel was published in <a href="publications.html#Reis:2017">Reis et al. (2017)</a>.    
+    </div>
+  </div>
+
+  <br/>
+
+  <br/>
+
+
+<hr/>
 
 <br/>
 
@@ -73,7 +201,7 @@ This is a list of publications since the principal investigator started to super
   <div class="container" id="Calderano:2020">
     <div class="row">
       <div class="twelve columns">
-14. Calderano, S.G.; Nishiyama-Jr., M.Y.; Marini, M.; Nunes, N.O.; Reis, M.S.; Patané, J.S.L.; Silveira, J.F.; Cunha, J.P.C.; Elias, M.C. <a href="https://www.mdpi.com/2073-4425/11/10/1235" target="_blank">Identification of Novel Interspersed DNA Repetitive Elements in the Trypanosoma cruzi Genome Associated with the 3'UTRs of Surface Multigenic Families.</a> Genes, v. 11(10), p. 1235, 2020.
+15. Calderano, S.G.; Nishiyama-Jr., M.Y.; Marini, M.; Nunes, N.O.; Reis, M.S.; Patane, J.S.L.; Silveira, J.F.; Cunha, J.P.C.; Elias, M.C. <a href="https://www.mdpi.com/2073-4425/11/10/1235" target="_blank">Identification of Novel Interspersed DNA Repetitive Elements in the Trypanosoma cruzi Genome Associated with the 3'UTRs of Surface Multigenic Families.</a> Genes, v. 11(10), p. 1235, 2020.
       </div>
     </div>    
   </div>
@@ -82,7 +210,7 @@ This is a list of publications since the principal investigator started to super
   <div class="container" id="Estrela:2020">
     <div class="row">
       <div class="twelve columns">
-13. Estrela, G.; Gubitoso, M.D.; Ferreira, C.E.; Barrera, J.; Reis, M.S. <a href="https://doi.org/10.3390/e22040492" target="_blank">An Efficient, Parallelized Algorithm for Optimal Conditional Entropy-Based Feature Selection.</a> Entropy, v. 22(4), p. 492, 2020.
+14. Estrela, G.; Gubitoso, M.D.; Ferreira, C.E.; Barrera, J.; Reis, M.S. <a href="https://doi.org/10.3390/e22040492" target="_blank">An Efficient, Parallelized Algorithm for Optimal Conditional Entropy-Based Feature Selection.</a> Entropy, v. 22(4), p. 492, 2020.
       </div>
     </div>    
   </div>
@@ -91,7 +219,7 @@ This is a list of publications since the principal investigator started to super
   <div class="container" id="daSilva:2019">
     <div class="row">
       <div class="twelve columns">  
-12. da Silva, M.S.; Cayres-Silva, G.R.; Vitarelli, M.O.; Marin, P.A.; Hiraiwa, P.M.; Araújo, C.B.; Scholl, B.B.; Ávila, A.R.; McCulloch, R.; Reis, M.S.; Elias, M.C. <a href="http://dx.doi.org/10.1038/s41598-019-54366-w" target="_blank">Transcription activity contributes to the firing of non-constitutive origins in African trypanosomes helping to maintain robustness in S-phase duration.</a> Scientific Reports, v. 9, p. 18512, 2019. 
+13. da Silva, M.S.; Cayres-Silva, G.R.; Vitarelli, M.O.; Marin, P.A.; Hiraiwa, P.M.; Araujo, C.B.; Scholl, B.B.; Avila, A.R.; McCulloch, R.; Reis, M.S.; Elias, M.C. <a href="http://dx.doi.org/10.1038/s41598-019-54366-w" target="_blank">Transcription activity contributes to the firing of non-constitutive origins in African trypanosomes helping to maintain robustness in S-phase duration.</a> Scientific Reports, v. 9, p. 18512, 2019. 
       </div>
     </div>    
   </div>
@@ -101,7 +229,7 @@ This is a list of publications since the principal investigator started to super
     <div class="container" id="Reis:2019">
     <div class="row">
       <div class="twelve columns">
-11. Reis, M.S.; Estrela, G.; Ferreira, C.E.; Barrera, J. <a href="http://dx.doi.org/10.1016/j.ins.2018.08.060" target="_blank">Optimal Boolean lattice-based algorithms for the U-curve optimization problem.</a> Information Sciences, v. 471, p. 97-114, 2019.
+12. Reis, M.S.; Estrela, G.; Ferreira, C.E.; Barrera, J. <a href="http://dx.doi.org/10.1016/j.ins.2018.08.060" target="_blank">Optimal Boolean lattice-based algorithms for the U-curve optimization problem.</a> Information Sciences, v. 471, p. 97-114, 2019.
       </div>
     </div>    
   </div>
@@ -110,7 +238,7 @@ This is a list of publications since the principal investigator started to super
   <div class="container">
     <div class="row">
     <div class="twelve columns">      
-10. Gren, E.C.K.; Kitano, E.S. ; Andrade-Silva, D.; Iwai, L.K.; Reis, M.S.; Menezes, M.C.; Serrano, S.M.T. <a href="http://dx.doi.org/10.1016/j.cbd.2019.01.012" target="_blank">Comparative analysis of the high molecular mass subproteomes of eight Bothrops snake venoms.</a> Comparative Biochemistry and Physiology D-Genomics & Proteomics, v. 30, p. 113-121, 2019.
+11. Gren, E.C.K.; Kitano, E.S. ; Andrade-Silva, D.; Iwai, L.K.; Reis, M.S.; Menezes, M.C.; Serrano, S.M.T. <a href="http://dx.doi.org/10.1016/j.cbd.2019.01.012" target="_blank">Comparative analysis of the high molecular mass subproteomes of eight Bothrops snake venoms.</a> Comparative Biochemistry and Physiology D-Genomics & Proteomics, v. 30, p. 113-121, 2019.
       </div>
     </div>    
   </div>
@@ -121,7 +249,7 @@ This is a list of publications since the principal investigator started to super
     <div class="container">
     <div class="row">
       <div class="twelve columns">
-9. Dias, M.H.; Fonseca, C.S.; Zeidler, J.D.; Albuquerque, L.L.; da Silva, M.S.; Cararo-Lopes, E.; Reis, M.S.; Noël, V.; Prior, I; Armelin, H.A. <a href="http://dx.doi.org/10.1002/1878-0261.12402" target="_blank">Fibroblast Growth Factor 2 lethally sensitizes cancer cells to stress-targeted therapeutic inhibitors.</a> Molecular Oncology, v. 13, p. 290-306, 2018.
+10. Dias, M.H.; Fonseca, C.S.; Zeidler, J.D.; Albuquerque, L.L.; da Silva, M.S.; Cararo-Lopes, E.; Reis, M.S.; Noel, V.; Prior, I; Armelin, H.A. <a href="http://dx.doi.org/10.1002/1878-0261.12402" target="_blank">Fibroblast Growth Factor 2 lethally sensitizes cancer cells to stress-targeted therapeutic inhibitors.</a> Molecular Oncology, v. 13, p. 290-306, 2018.
       </div>
     </div>    
   </div>
@@ -131,7 +259,7 @@ This is a list of publications since the principal investigator started to super
   <div class="container">
     <div class="row">
       <div class="twelve columns">
-8. Andrade-Silva, D.; Ashline, D.; Tran, T.; Lopes, A.S.; Cardoso, S.R.T.; Reis, M.S.; Zelanis, A.; Serrano, S.M.T.; Reinhold, V. <a href="http://dx.doi.org/10.1038/s41598-019-54366-w" target="_blank">Structures of N-Glycans of Bothrops venoms revealed as molecular signatures that contribute to venom phenotype in viperid snakes.</a> Molecular & Cellular Proteomics, v. 17, p. 1261-1284, 2018.
+9. Andrade-Silva, D.; Ashline, D.; Tran, T.; Lopes, A.S.; Cardoso, S.R.T.; Reis, M.S.; Zelanis, A.; Serrano, S.M.T.; Reinhold, V. <a href="http://dx.doi.org/10.1038/s41598-019-54366-w" target="_blank">Structures of N-Glycans of Bothrops venoms revealed as molecular signatures that contribute to venom phenotype in viperid snakes.</a> Molecular & Cellular Proteomics, v. 17, p. 1261-1284, 2018.
       </div>
     </div>    
   </div>
@@ -141,7 +269,7 @@ This is a list of publications since the principal investigator started to super
   <div class="container">
     <div class="row">
       <div class="twelve columns">
-7. Vitorino; F.N.L.; Montoni, F.; Moreno, J.N.; Souza, B.F.; Lopes, M.C.; Cordeiro, B.; Fonseca, C.S.; Gilmore, J.M.; Sardiu, M.I.; Reis, M.S.; Florens, L.A.; Washburn, M.P.; Armelin, H.A.; da Cunha, J.P.C. <a href="http://dx.doi.org/10.1002/pmic.201800203" target="_blank">FGF-2 Antiproliferative Stimulation Induces Proteomic Dynamic Changes and High Expression of fosB and junB in K-Ras-Driven Mouse Tumor Cells.</a> Proteomics, v. 18, p. 1800203, 2018.
+8. Vitorino; F.N.L.; Montoni, F.; Moreno, J.N.; Souza, B.F.; Lopes, M.C.; Cordeiro, B.; Fonseca, C.S.; Gilmore, J.M.; Sardiu, M.I.; Reis, M.S.; Florens, L.A.; Washburn, M.P.; Armelin, H.A.; da Cunha, J.P.C. <a href="http://dx.doi.org/10.1002/pmic.201800203" target="_blank">FGF-2 Antiproliferative Stimulation Induces Proteomic Dynamic Changes and High Expression of fosB and junB in K-Ras-Driven Mouse Tumor Cells.</a> Proteomics, v. 18, p. 1800203, 2018.
       </div>
     </div>    
   </div>
@@ -151,7 +279,7 @@ This is a list of publications since the principal investigator started to super
   <div class="container">
     <div class="row">
       <div class="twelve columns">
-6. Atashpaz-Gargari, E.; Reis, M.S.; Barrera, J.; Braga-Neto, U.M.; Dougherty, E.R. <a href="http://dx.doi.org/10.1016/j.patcog.2017.08.013" target="_blank">A fast algorithm for U-curve branch-and-bound feature selection.</a> Pattern Recognition, v. 73, p. 172–188, 2018.
+7. Atashpaz-Gargari, E.; Reis, M.S.; Barrera, J.; Braga-Neto, U.M.; Dougherty, E.R. <a href="http://dx.doi.org/10.1016/j.patcog.2017.08.013" target="_blank">A fast algorithm for U-curve branch-and-bound feature selection.</a> Pattern Recognition, v. 73, p. 172–188, 2018.
       </div>
     </div>    
   </div>
@@ -161,7 +289,7 @@ This is a list of publications since the principal investigator started to super
   <div class="container" id="Reis:2017">
     <div class="row">
       <div class="twelve columns">
-5. Reis, M.S.; Estrela, G.; Ferreira, C.E.; Barrera, J. <a href="http://dx.doi.org/10.1016/j.softx.2017.07.005" target="_blank">featsel: A framework for benchmarking of feature selection algorithms and cost functions.</a> SoftwareX, v. 6, p. 193-197, 2017.
+6. Reis, M.S.; Estrela, G.; Ferreira, C.E.; Barrera, J. <a href="http://dx.doi.org/10.1016/j.softx.2017.07.005" target="_blank">featsel: A framework for benchmarking of feature selection algorithms and cost functions.</a> SoftwareX, v. 6, p. 193-197, 2017.
       </div>
     </div>    
   </div>
@@ -171,7 +299,7 @@ This is a list of publications since the principal investigator started to super
   <div class="container">
     <div class="row">
       <div class="twelve columns">
-4. de Jesus, T.C.L.; Calderano, S.G.; Vitorino, F.N.L.; Pariona-Llanos, R.; Lopes, M.C.; Araújo, C.B.; Thiemann, O.H.; Reis, M.S.; Elias, M.C.; da Cunha, J.P.C. <a href="http://dx.doi.org/10.1074/mcp.m116.061200" target="_blank">Quantitative proteomic analysis of replicative and non-replicative forms reveals important insights into chromatin biology of Trypanosoma cruzi.</a> Molecular & Cellular Proteomics, v. 16, p. mcp.M116.061200, 2017.
+5. de Jesus, T.C.L.; Calderano, S.G.; Vitorino, F.N.L.; Pariona-Llanos, R.; Lopes, M.C.; Araujo, C.B.; Thiemann, O.H.; Reis, M.S.; Elias, M.C.; da Cunha, J.P.C. <a href="http://dx.doi.org/10.1074/mcp.m116.061200" target="_blank">Quantitative proteomic analysis of replicative and non-replicative forms reveals important insights into chromatin biology of Trypanosoma cruzi.</a> Molecular & Cellular Proteomics, v. 16, p. mcp.M116.061200, 2017.
       </div>
     </div>    
   </div>
@@ -181,7 +309,7 @@ This is a list of publications since the principal investigator started to super
   <div class="container">
     <div class="row">
       <div class="twelve columns">
-3. Fonseca, A.; Gubitoso, M.D.; Reis, M.S.; Souza, S.J.; Barrera, J. <a href="http://dx.doi.org/10.4137/CIN.S30800" target="_blank">A New Approach for Identification of Cancer-related Pathways using Protein Networks and Genomic Data.</a> Cancer Informatics, v. 5, p. 139-149, 2016.
+4. Fonseca, A.; Gubitoso, M.D.; Reis, M.S.; Souza, S.J.; Barrera, J. <a href="http://dx.doi.org/10.4137/CIN.S30800" target="_blank">A New Approach for Identification of Cancer-related Pathways using Protein Networks and Genomic Data.</a> Cancer Informatics, v. 5, p. 139-149, 2016.
       </div>
     </div>    
   </div>
@@ -191,7 +319,7 @@ This is a list of publications since the principal investigator started to super
   <div class="container" id="Andrade-Silva:2016">
     <div class="row">
       <div class="twelve columns">
-2. Andrade-Silva, D.; Zelanis, A.; Kitano, E.S.; Junqueira-de-Azevedo, I.L.M.; Reis, M.S.; Lopes, A.S.; Serrano, S.M.T. <a href="http://dx.doi.org/10.1021/acs.jproteome.6b00217" target="_blank">Proteomic and glycoproteomic profilings reveal that posttranslational modifications of toxins contribute to venom phenotype in snakes.</a> Journal of Proteome Research, v. 15, p. 2658-2675, 2016.
+3. Andrade-Silva, D.; Zelanis, A.; Kitano, E.S.; Junqueira-de-Azevedo, I.L.M.; Reis, M.S.; Lopes, A.S.; Serrano, S.M.T. <a href="http://dx.doi.org/10.1021/acs.jproteome.6b00217" target="_blank">Proteomic and glycoproteomic profilings reveal that posttranslational modifications of toxins contribute to venom phenotype in snakes.</a> Journal of Proteome Research, v. 15, p. 2658-2675, 2016.
       </div>
     </div>    
   </div>
@@ -201,10 +329,24 @@ This is a list of publications since the principal investigator started to super
   <div class="container">
     <div class="row">
       <div class="twelve columns">
-1. Pariona-Llanos, R.; Pavani, R.; Reis, M.; Noël, V.; Silber, A.; Armelin, H.; Cano, M.I.; Elias, M.C. <a href="http://dx.doi.org/10.1371/journal.pone.0120896" target="_blank">Glyceraldehyde 3-Phosphate Dehydrogenase-Telomere Association Correlates with Redox Status in Trypanosoma cruzi.</a> Plos One, v. 10, p. e0120896, 2015.
+2. Pariona-Llanos, R.; Pavani, R.; Reis, M.; Noel, V.; Silber, A.; Armelin, H.; Cano, M.I.; Elias, M.C. <a href="http://dx.doi.org/10.1371/journal.pone.0120896" target="_blank">Glyceraldehyde 3-Phosphate Dehydrogenase-Telomere Association Correlates with Redox Status in Trypanosoma cruzi.</a> Plos One, v. 10, p. e0120896, 2015.
       </div>
     </div>    
   </div>
+
+<br/>
+
+  <div class="container" id="Reis:2013">
+    <div class="row">
+      <div class="twelve columns">
+1. Reis, M.S.; Barrera, J. <a href="https://link.springer.com/chapter/10.1007%2F978-3-642-38294-9_5" target="_blank">Solving problems in Mathematical Morphology through reductions to the U-curve problem.</a> Lecture Notes in Computer Science, v. 7883. Springer, Berlin, Heidelberg, 2013. 
+      </div>
+    </div>    
+  </div>
+
+<br/>
+
+<hr/>
 
 <br/>
 
@@ -215,11 +357,21 @@ This is a list of publications since the principal investigator started to super
     </div>
   </div>
 </div>
-  
+ 
+   <div class="container" id="Armelin:2020">
+    <div class="row">
+      <div class="twelve columns">
+  2. Armelin, H.A.; Reis, M.S.; da Silva, M.S. Controle do Ciclo Celular. Submitted for publication in "Tratado de Oncologia", 2020.
+      </div>
+    </div>    
+  </div>
+ 
+ <br/>
+ 
   <div class="container" id="Reis:2017b">
     <div class="row">
       <div class="twelve columns">
-  1. Reis, M.S.; Noël, V.; Dias, M.H.S.; Albuquerque, L.L.; Guimarães, A.S.; Wu, L.; Barrera, J; Armelin, H.A. <a href="http://dx.doi.org/10.1007/978-1-4939-7154-1_28" target="_blank">An interdisciplinary approach for designing of the Ras/MAPK signaling pathway.</a> Methods in Molecular Biology, v. 1636, p. 455–474, 2017.
+  1. Reis, M.S.; Noel, V.; Dias, M.H.S.; Albuquerque, L.L.; Guimaraes, A.S.; Wu, L.; Barrera, J; Armelin, H.A. <a href="http://dx.doi.org/10.1007/978-1-4939-7154-1_28" target="_blank">An interdisciplinary approach for designing of the Ras/MAPK signaling pathway.</a> Methods in Molecular Biology, v. 1636, p. 455–474, 2017.
       </div>
     </div>    
   </div>
@@ -253,5 +405,3 @@ This is a list of publications since the principal investigator started to super
 </body>
 
 </html>
-
-
