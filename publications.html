@@ -45,7 +45,8 @@
   <a href="index.html">About</a>
   <a href="members.html">Members</a>
   <a href="publications.html">Publications</a>
-  <a href="projects-and-software.html">Projects and Software</a>
+  <a href="projects.html">Projects</a>
+  <a href="software.html">Software</a>
   <a href="teaching.html">Teaching</a>
   <a href="contact.html">Contact</a>
   <a href="javascript:void(0);" class="icon" onClick="openDrawerMenu()">&#9776;</a>
@@ -56,158 +57,25 @@
   <div class="row" style="margin-top: 2%">
     <h5> Publications </h5>
 
-This is a list of publications since the end of Marcelo's doctoral (2012), including a description of his thesis. For publications before that period please <a href="https://publons.com/researcher/2686981/marcelo-s-reis/">refer to his page at Publons</a>.
+This is a list of publications since the end of Marcelo's doctoral (2012), including papers, book chapters and an overview of his thesis, which links several of its results to more recent works and publications. For publications before that period please <a href="https://publons.com/researcher/2686981/marcelo-s-reis/">refer to his page at Publons</a>.
+
+<br/><br/>
+
+<ul>
+  <li><a href="publications.html#papers">Papers in peer-reviewed conferences or journals</a><br/></li>
+  <li><a href="publications.html#books">Book chapters</a><br/></li>
+  <li><a href="publications.html#PhD">Doctoral thesis</a></li>
+</ul>
   </div>
 </div>
-
-<br/>
-
-<hr/>
-
-<br/>
-
-
-<div class="container">
-  <div class="row">
-    <div class="twelve columns">      
-     <h6> <b><u> Doctoral thesis </u></b> </h6> 
-     My doctoral thesis, advised by Prof. Dr. Junior Barrera, was in the field of Machine Learning. More specifically, I worked on dealing with the feature selection problem through an approximation called the U-curve problem, which enables us to deal with the search space of features subsets in a more structured, hence more efficient, way. In the following, I briefly present the chapters of my thesis and also publications associated to some of them. My thesis <a href="https://www.teses.usp.br/teses/disponiveis/45/45134/tde-05022013-123757/en.php">can be downloaded from here</a> (in Portuguese only).
-    </div>
-  </div>
-</div>
-
-<br/>
-
-  <div class="container" id="chap-1">
-    <div class="twelve columns">
-      <b> "Minimization of decomposable in U-shaped curves functions defined on poset chains -- algorithms and applications"</b>
-    </div>
-  </div>
-  
-  <br/>
-
-
-  <div class="container" id="chap-1">
-    <div class="four columns">
-      <b> Chapter 1: Introduction </b>
-    </div>
-    <div class="eight columns">
-    Motivation of the problem and thesis outline.
-    </div>
-  </div>
-  
-  <br/>
-
-  <div class="container" id="chap-2">
-    <div class="four columns">
-      <b> Chapter 2: Literature review and fundamental concepts </b>
-    </div>
-    <div class="eight columns">
-    Review of the feature selection problem and proposed methods to tackle it; presentation of concepts and definitions used throughout the thesis.    
-    </div>
-  </div>
-
-  <br/>
-  
-    <div class="container" id="chap-3">
-    <div class="four columns">
-      <b> Chapter 3: the U-curve problem </b>
-    </div>
-    <div class="eight columns">
-    Formalization of the U-curve problem and a proof that this problem is NP-hard. An improved version of that proof was published in <a href="publications.html#Estrela:2020">Estrela et al. (2020)</a>.    
-    </div>
-  </div>
-
-  <br/>
-  
-    <div class="container" id="chap-4">
-    <div class="four columns">
-      <b> Chapter 4: The UCS algorithm </b>
-    </div>
-    <div class="eight columns">
-    Demonstration that an algorithm previously introduced to tackle the U-curve problem is suboptimal; presentation of the U-Curve-Search (UCS), which is actually optimal to solve the U-curve problem. Some principles of the UCS algorithm were presented in <a href="publications.html#Reis:2013">Reis and Barrera (2013)</a>, and that algorithm was fully published in <a href="publications.html#Reis:2019">Reis et al. (2019)</a>.    
-    </div>
-  </div>
-
-  <br/>
-  
-   <div class="container" id="chap-5">
-    <div class="four columns">
-      <b> Chapter 5: The path initiation problem </b>
-    </div>
-    <div class="eight columns">
-    In UCS and other similar algorithms, finding an element of the search space that was not pruned is known as the path initiation problem. In this chapter we analyzed such problem, including some computational complexity aspects. After this thesis, we tackled this problem using reduced, ordered binary decision diagrams. This latter work was developed during <a href="members.html#gestrela">Gustavo Estrela</a>'s <a href="https://bv.fapesp.br/en/bolsas/156441/studies-of-efficient-data-structures-to-tackle-the-u-curve-optimization-problem/">first scientific initiation</a> (FAPESP scholarship  14/23564-0) and also reported it in <a href="publications.html#Reis:2019">Reis et al. (2019)</a>.    
-    </div>
-  </div>
-
-  <br/>
-  
-  
-  <div class="container" id="chap-6">
-    <div class="four columns">
-      <b> Chapter 6: Branch-and-bound algorithms for the U-curve problem </b>
-    </div>
-    <div class="eight columns">
-    We introduced the Poset-Forest Search (PFS), a branch-and-bound algorithm to tackle the U-curve problem that manages the search space through two forests of partially-ordered sets (posets). Further improvements in PFS were accomplished later, through Gustavo Estrela's <a href="https://bv.fapesp.br/en/bolsas/170553/design-of-poset-forest-based-algorithms-for-the-u-curve-optimization-problem/">second scientific initiation</a> (FAPESP scholarship  16/25959-7).
-    </div>
-  </div>
-
-  <br/>
-
-    <div class="container" id="chap-7">
-    <div class="four columns">
-      <b> Chapter 7: Experiments </b>
-    </div>
-    <div class="eight columns">
-    Presentation of benchmarking experiments with the algorithms developed during the doctoral period, including computational assays using hard instances (polynomial reduction from the subset sum problem) and also from real-world data (filtering of binary images using W-operators). 
-    </div>
-  </div>
-
-  <br/>
-  
-      <div class="container" id="chap-8">
-    <div class="four columns">
-      <b> Chapter 8: Generalization of the U-curve problem </b>
-    </div>
-    <div class="eight columns">
-    Here, we provided some theoretical results in Machine Learning. Consider, for a fixed number N, the Boolean lattice composed of all possible Boolean functions with N variables (inputs). Consider the joint distribution Pr[<b>Y</b> = <b>y</b>, <b>X</b> = <b>x</b>], where <b>X</b> and <b>Y</b> are random variables that draw from the input and Boolean target domains, respectively. We demonstrated that using the mean absolute error (MAE) to estimate the error of choosing each of those Boolean functions to classify data produced by the aforementioned joint distribution results in a search space in which chains that pass through the global minimum are U-shaped, therefore prone to be solved by algorithms designed for the U-curve problem.</div>
-  </div>
-
-  <br/>
-  
-      <div class="container" id="chap-9">
-    <div class="four columns">
-      <b> Chapter 9: Conclusion </b>
-    </div>
-    <div class="eight columns">
-   Typical conclusion chapter: we recalled the main contributions of this thesis and provided some perspectives of future works.    
-    </div>
-  </div>
-
-  <br/>
-  
-      <div class="container" id="appendix">
-    <div class="four columns">
-      <b> Appendix A: The featsel framework </b>
-    </div>
-    <div class="eight columns">
-    Description of featsel, a framework for benchmarking of feature selection algorithms and cost functions. This framework was coded in C++ and was developed especially for the execution of the computational experiments depicted throughout the thesis. featsel was published in <a href="publications.html#Reis:2017">Reis et al. (2017)</a>.    
-    </div>
-  </div>
-
-  <br/>
-
-  <br/>
 
 
 <hr/>
 
-<br/>
-
-<div class="container">
+<div class="container" id="papers">
   <div class="row">
     <div class="twelve columns">      
-     <h6> <b> <u> Papers in peer-reviewed conferences or journals </ul> </b> </h6>
+     <h6> <b> Papers in peer-reviewed conferences or journals </b> </h6>
     </div>
   </div>
 </div>
@@ -364,10 +232,10 @@ This is a list of publications since the end of Marcelo's doctoral (2012), inclu
 
 <br/>
 
-<div class="container">
+<div class="container" id="books">
   <div class="row">
     <div class="twelve columns">      
-     <h6> <b> <u> Book chapters </ul> </b> </h6>
+     <h6> <b> Book chapters </b> </h6>
     </div>
   </div>
 </div>
@@ -388,6 +256,141 @@ This is a list of publications since the end of Marcelo's doctoral (2012), inclu
   1. Reis, M.S.; Noel, V.; Dias, M.H.S.; Albuquerque, L.L.; Guimaraes, A.S.; Wu, L.; Barrera, J; Armelin, H.A. <a href="http://dx.doi.org/10.1007/978-1-4939-7154-1_28" target="_blank">An interdisciplinary approach for designing of the Ras/MAPK signaling pathway.</a> Methods in Molecular Biology, v. 1636, p. 455–474, 2017.
       </div>
     </div>    
+  </div>
+
+<br/>
+    
+  <hr/>
+
+<br/>
+
+
+<div class="container" id="PhD">
+  <div class="row">
+    <div class="twelve columns">      
+     <h6> <b><u> Doctoral thesis </u></b> </h6> 
+     My doctoral thesis, advised by Prof. Dr. Junior Barrera, was in the field of Machine Learning. More specifically, I worked on dealing with the feature selection problem through an approximation called the U-curve problem, which enables us to deal with the search space of features subsets in a more structured, hence more efficient, way. In the following, I briefly present the chapters of my thesis and also publications associated to some of them. My thesis <a href="https://www.teses.usp.br/teses/disponiveis/45/45134/tde-05022013-123757/en.php">can be downloaded from here</a> (in Portuguese only).
+    </div>
+  </div>
+</div>
+
+<br/>
+
+  <div class="container" id="title">
+    <div class="twelve columns">
+      <b> "Minimization of decomposable in U-shaped curves functions defined on poset chains -- algorithms and applications"</b>
+    </div>
+  </div>
+  
+  <br/>
+
+
+  <div class="container" id="chap-1">
+    <div class="four columns">
+      <b> Chapter 1: Introduction </b>
+    </div>
+    <div class="eight columns">
+    Motivation of the problem and thesis outline.
+    </div>
+  </div>
+  
+  <br/>
+
+  <div class="container" id="chap-2">
+    <div class="four columns">
+      <b> Chapter 2: Literature review and fundamental concepts </b>
+    </div>
+    <div class="eight columns">
+    Review of the feature selection problem and proposed methods to tackle it; presentation of concepts and definitions used throughout the thesis.    
+    </div>
+  </div>
+
+  <br/>
+  
+    <div class="container" id="chap-3">
+    <div class="four columns">
+      <b> Chapter 3: the U-curve problem </b>
+    </div>
+    <div class="eight columns">
+    Formalization of the U-curve problem and a proof that this problem is NP-hard. An improved version of that proof was published in <a href="publications.html#Estrela:2020">Estrela et al. (2020)</a>.    
+    </div>
+  </div>
+
+  <br/>
+  
+    <div class="container" id="chap-4">
+    <div class="four columns">
+      <b> Chapter 4: The UCS algorithm </b>
+    </div>
+    <div class="eight columns">
+    Demonstration that an algorithm previously introduced to tackle the U-curve problem is suboptimal; presentation of the U-Curve-Search (UCS), which is actually optimal to solve the U-curve problem. Some principles of the UCS algorithm were presented in <a href="publications.html#Reis:2013">Reis and Barrera (2013)</a>, and that algorithm was fully published in <a href="publications.html#Reis:2019">Reis et al. (2019)</a>.    
+    </div>
+  </div>
+
+  <br/>
+  
+   <div class="container" id="chap-5">
+    <div class="four columns">
+      <b> Chapter 5: The path initiation problem </b>
+    </div>
+    <div class="eight columns">
+    In UCS and other similar algorithms, finding an element of the search space that was not pruned is known as the path initiation problem. In this chapter we analyzed such problem, including some computational complexity aspects. After this thesis, we tackled this problem using reduced, ordered binary decision diagrams. This latter work was developed during <a href="members.html#gestrela">Gustavo Estrela</a>'s <a href="https://bv.fapesp.br/en/bolsas/156441/studies-of-efficient-data-structures-to-tackle-the-u-curve-optimization-problem/">first scientific initiation</a> (FAPESP scholarship  14/23564-0) and also reported it in <a href="publications.html#Reis:2019">Reis et al. (2019)</a>.    
+    </div>
+  </div>
+
+  <br/>
+  
+  
+  <div class="container" id="chap-6">
+    <div class="four columns">
+      <b> Chapter 6: Branch-and-bound algorithms for the U-curve problem </b>
+    </div>
+    <div class="eight columns">
+    We introduced the Poset-Forest Search (PFS), a branch-and-bound algorithm to tackle the U-curve problem that manages the search space through two forests of partially-ordered sets (posets). Further improvements in PFS were accomplished later, through Gustavo Estrela's <a href="https://bv.fapesp.br/en/bolsas/170553/design-of-poset-forest-based-algorithms-for-the-u-curve-optimization-problem/">second scientific initiation</a> (FAPESP scholarship  16/25959-7).
+    </div>
+  </div>
+
+  <br/>
+
+    <div class="container" id="chap-7">
+    <div class="four columns">
+      <b> Chapter 7: Experiments </b>
+    </div>
+    <div class="eight columns">
+    Presentation of benchmarking experiments with the algorithms developed during the doctoral period, including computational assays using hard instances (polynomial reduction from the subset sum problem) and also from real-world data (filtering of binary images using W-operators). 
+    </div>
+  </div>
+
+  <br/>
+  
+      <div class="container" id="chap-8">
+    <div class="four columns">
+      <b> Chapter 8: Generalization of the U-curve problem </b>
+    </div>
+    <div class="eight columns">
+    Here, we provided some theoretical results in Machine Learning. Consider, for a fixed number N, the Boolean lattice composed of all possible Boolean functions with N variables (inputs). Consider the joint distribution Pr[<b>Y</b> = <b>y</b>, <b>X</b> = <b>x</b>], where <b>X</b> and <b>Y</b> are random variables that draw from the input and Boolean target domains, respectively. We demonstrated that using the mean absolute error (MAE) to estimate the error of choosing each of those Boolean functions to classify data produced by the aforementioned joint distribution results in a search space in which chains that pass through the global minimum are U-shaped, therefore prone to be solved by algorithms designed for the U-curve problem.</div>
+  </div>
+
+  <br/>
+  
+      <div class="container" id="chap-9">
+    <div class="four columns">
+      <b> Chapter 9: Conclusion </b>
+    </div>
+    <div class="eight columns">
+   Typical conclusion chapter: we recalled the main contributions of this thesis and provided some perspectives of future works.    
+    </div>
+  </div>
+
+  <br/>
+  
+      <div class="container" id="appendix">
+    <div class="four columns">
+      <b> Appendix A: The featsel framework </b>
+    </div>
+    <div class="eight columns">
+    Description of featsel, a framework for benchmarking of feature selection algorithms and cost functions. This framework was coded in C++ and was developed especially for the execution of the computational experiments depicted throughout the thesis. featsel was published in <a href="publications.html#Reis:2017">Reis et al. (2017)</a>.    
+    </div>
   </div>
   
   <br/><br/>
