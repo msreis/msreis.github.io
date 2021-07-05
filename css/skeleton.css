@@ -51,6 +51,12 @@
 }
 
 
+.banner
+{
+  width: 500px;
+  z-index: 0;
+}
+
 
 /* Caption */
 caption {
